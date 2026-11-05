@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.o
+*.a
+*.obj
+
+# C extensions & build directories
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch Lightning & Training Outputs
+outputs/
+lightning_logs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+events.out.tfevents.*
+results_nusc.json
+
+# Dataset & Data preparation
+data/
+*.pkl
+*.bin
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+crn_env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
